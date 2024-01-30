@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+}
+.main button{
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: #fff
+}
+input[type="number"]{
+    margin-left: 10px;
+    outline: none;
+}
+.paragraph{
+    width: 950px;
+    text-align: center;
+}
+.paragraph p{
+    margin-bottom: 15px;
+}
